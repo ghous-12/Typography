@@ -1,0 +1,100 @@
+body {
+  display: flex;
+  max-width: 1140px;
+}
+.container {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+h1 {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 2.986rem;
+  line-height: 1.5;
+  letter-spacing: 0.004em;
+  line-break: auto;
+}
+.italic {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  letter-spacing: 0.004em;
+  line-break: auto;
+}
+img {
+  width: auto;
+  height: 100vh;
+}
+h2 {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 2.488rem;
+  line-height: 1.5;
+  letter-spacing: 0.004em;
+  line-break: auto;
+}
+h4 {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 1.44rem;
+  line-height: 1.5;
+  letter-spacing: 0.004em;
+  line-break: auto;
+}
+.recipe {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.004em;
+}
+@media screen and (min-width: 425px) {
+    body {
+    max-width: 425px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  img {
+    width: auto;
+    height: 86vh;
+  }
+  h1 {
+    display: flex;
+    text-align: center;
+    margin-inline-start: 14px;
+  }
+  .italic {
+    text-align: center;
+    height: 80px;
+    width: 710px;
+  }
+}
+@media screen and (min-width: 768px) {
+    body {
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  img {
+    width: auto;
+    height: 90vh;
+  }
+  h1 {
+    display: flex;
+    margin-inline-start: 14px;
+  }
+}
